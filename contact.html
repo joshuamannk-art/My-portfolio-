@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My portfolio</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+  background: radial-gradient(circle, white -50%, black 50%);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+    
+    }
+    header{
+        width: 100%;
+        height: 20vh;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+
+.links{
+    font-size: 24px;
+  background: linear-gradient(100deg,#464444, #24f111);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  
+}
+h1{
+  font-size: 40px;
+  background: linear-gradient(100deg,#464444, #24f111);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  margin-left: 20px;
+  
+}
+a:hover{
+    color: green;
+}
+header b{
+    color: white;
+    font-size: 32px;
+  
+}
+.box{
+   display: flex;
+   width: 100%;
+   height: auto;
+   flex-direction: column;
+   
+}
+nav{
+    margin-right: 50px;
+}
+.box1{
+
+background-color: rgba(70, 68, 68, 0.564);
+display: flex;
+justify-content: space-between;
+width: 90%;
+margin-left: 40px;
+margin-bottom: 30px;
+border-radius: 20px;
+
+}
+.box2{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+          width: 90%;
+      max-width: 1000px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+
+}
+ 
+    input {
+      height: 35px;
+      border: none;
+      border-radius: 8px;
+      width: 300px;
+      margin-bottom: 20px;
+      outline: none;
+      background: #222;
+      color: #fff;
+      font-size: 15px;
+    }
+
+    label {
+      font-size: 16px;
+      color: #24f111;
+      margin-bottom: 8px;
+    }
+input::placeholder{
+    text-align: center;
+}
+.div1 label{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    color: green
+    
+}
+.div2 label{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    color: green
+    
+}
+.items1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+  margin-left: 20px;
+
+}
+.items2{
+    margin-top: 20px;
+    margin-right: 25px;
+ 
+}
+.items3{
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.items2,label{
+ font-family: Arial, Helvetica, sans-serif;   
+ color: white;
+margin-top: 20px;
+}
+
+.items3 label{
+    color: white;
+}
+.items2 b{
+    margin-top: 20px;
+      background: linear-gradient(100deg,#212121, #24f111);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.items3 b{
+    margin-top: 20px;
+      background: linear-gradient(100deg,#212121, #24f111);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+
+@media(max-width:768px){
+    .box{
+        flex-direction: column;
+    }
+    .box2,.box1{
+        width: 100%;
+    }
+    .box2{
+        height: 500px;
+        margin-top: 50px;
+        
+    }
+}
+iframe{
+    width: 90%;
+      max-width: 1200px;
+      height: 450px;
+      border-radius: 20px;
+}
+</style>
+<body>
+   <header>
+
+   <b style="font-family: cursive; margin-left: 20px;">Logo</b>
+  
+    <nav class="lin">
+       <a href="index.html" class="links">Home</a>
+        <a href="about.html" class="links">About</a>
+         <a href="project.html" class="links">Project</a>
+          <a href="blog .html" class="links">Blog</a>
+    </nav>
+   </header> 
+ <div class="box">
+  <div class="box1">
+    <div class="items1">
+    <h1>Get Touch</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elendus. <br>Sed quisquam possimus natus quis distinctio.</p>
+</div>
+<div class="items2">
+  
+ <b class="add1">Our Address</b><br>
+   <label for="">tulubimtu</label> <br>
+   <label for="">main streets</label>
+</div>
+   <div class="items3">
+    <b class="add2">
+        contact
+    </b><br>
+    <label for="">+25109143908</label><br>
+    <label for="">support@help.com</label><br>
+   </div>
+  </div>
+  <div class="box2">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d246.37704591507782!2d38.820395519189894!3d8.876544602630274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b790025eae43b%3A0x1a10636c037cf574!2sTuludimtu%20adebabay!5e0!3m2!1sam!2set!4v1762692378817!5m2!1sam!2set" style="border:0;"
+     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="box3">
+    <h1></h1>
+  <div class="div1">
+         <label for="">Full Name</label><br>
+    <input type="text" name="" placeholder="Enter Your Name"><br>
+     <label for="">Job Position</label><br>
+    <input type="text" name="" placeholder="Enter Your Job">
+    </div>
+    <div class="div2">
+         <label for="">Email Address</label><br>
+    <input type="text" name="" placeholder="Enter Your Email;"><br>
+     <label >Phone Number</label><br>
+    <input type="text" name="" placeholder="Enter Your Phone">
+    </div>
+
+  </div>
+</div>
+</div>
+</body>

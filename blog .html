@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My portfolio</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+  background: radial-gradient(circle, white -50%, black 50%);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+
+z-index: 1;
+    
+    }
+    header{
+        width: 100%;
+        height: 20vh;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+
+    }
+
+.links{
+    font-size: 24px;
+  background: linear-gradient(100deg,#464444, #24f111);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  
+}
+a:hover{
+    color: green;
+}
+header b{
+    color: white;
+    font-size: 32px;
+  
+}
+.box{
+   display: flex;
+   width: 100%;
+   height: auto;
+ 
+}
+nav{
+    margin-right: 50px;
+}
+.box1{
+display: flex;
+width: 50%;
+flex-direction: column;
+margin-top: 20px
+
+}
+.box1 h1{
+    
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(100deg,#464444, #24f111);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   margin-left: 40px;
+  
+}
+p{
+     font-family: "Quicksand", "Raleway", "Comfortaa", sans-serif;
+    font-size: 15px;
+    color: white;
+    line-height: 1.8;
+    margin-left: 40px;
+   
+}
+
+
+img{
+    margin-left: 20px;
+    border-radius: 20px;
+    border: 10px solid rgba(175, 181, 175, 0.479);
+    border-style:outset;
+}
+img:hover{
+    transform: scale(1.05);
+    transition: 2s;
+}
+@media(max-width:768px){
+    .box{
+        flex-direction: column-reverse;
+    }
+    .box2,.box1{
+        width: 100%;
+    }
+    .box2{
+        height: 500px;
+        margin-top: 50px;
+        
+    }
+}
+.bg{
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    
+
+}
+.black{
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  margin-left: 10%;
+
+}
+h1{
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+<body>
+   <header>
+
+   <b style="font-family: cursive; margin-left: 20px;">Logo</b>
+  
+    <nav class="lin">
+       <a href="index.html" class="links">Home</a>
+        <a href="contact.html" class="links">Contact</a>
+         <a href="project.html" class="links">Project</a>
+          <a href="a" class="links">About</a>
+    </nav>
+   </header> 
+   <div class="bg">
+    <video loop muted autoplay>
+        <source src="bg.mp4">
+    </video>
+</div>
+<div class="black">
+    <h1 style="color: rgb(34, 169, 34); margin-left: 10px;">
+1. How I Built My Portfolio Website Using HTML, CSS, and JavaScript
+</h1>
+
+<p style="line-height: 2;">
+Building my personal portfolio website was one of the most exciting projects I’ve done. I wanted a place that represents who I am as a developer — simple, modern, and responsive.
+
+I started by planning the layout on paper: a home section, about section, project section, blog, and contact form. Then, I wrote the structure in HTML and styled it with CSS using Flexbox and Grid for alignment.
+
+I used Poppins as my main font to keep the design clean. Buttons and images have smooth hover animations to make the site feel interactive.
+
+Finally, I used JavaScript to handle small effects like smooth scrolling, menu toggling on mobile, and simple animations when elements appear on screen.
+
+Creating it from scratch helped me understand how front-end components work together, and it gave me a solid foundation to improve my future projects.
+</p>
+<h1 style="margin-top: 100px; margin-bottom: 100px; color: #24f111;">
+2. My Journey Learning Flutter for Mobile App Development
+</h1>
+<p style="line-height: 2;">
+
+
+When I first heard about Flutter, I was curious how one codebase could create apps for both Android and iOS. I started learning it through tutorials and small projects — and it quickly became one of my favorite tools.
+
+My first Flutter project was a simple to-do list app. I learned how widgets work, how to manage state, and how to connect the app with Firebase for real-time data.
+
+The best thing about Flutter is how fast you can see changes using hot reload. I also loved how customizable the UI is — it feels like designing a website but with mobile power.
+
+Now, I’m working on more complex apps and exploring Flutter animations. Learning Flutter improved how I think about UI/UX design and app performance.
+</p>
+</div>
+</body>
+</html>
